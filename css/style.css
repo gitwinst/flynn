@@ -1,5 +1,5 @@
 html {
-  background-color: #111;
+  background-color: #000;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -9,12 +9,20 @@ header {
 }
 
 main {
+  background-color: #111;
+  margin: auto;
+}
+
+#timeline {
+  color: #eee;
+  padding-top: 50px;
+  margin: auto;
   width: 95%;
-  margin: 50px auto;
+  /* background-color: #111; */
 }
 
 @media (min-width: 800px) {
-  main {
+  #timeline {
     width: 60%;
   }
 }
@@ -35,10 +43,6 @@ h1 {
   border-radius: 50%;
   width: 200px;
   margin: auto;
-}
-
-#timeline {
-  color: #eee;
 }
 
 video {
@@ -72,6 +76,10 @@ footer {
   color: #bbb;
   padding: 30px;
   background-color: #000
+}
+
+#credit {
+  padding: 24px;
 }
 
 p {
