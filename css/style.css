@@ -1,0 +1,89 @@
+html {
+  background-color: #111;
+  font-family: 'Roboto Slab', serif;
+}
+
+header {
+  display: grid;
+  height: 40vh;
+}
+
+main {
+  width: 95%;
+  margin: 50px auto;
+}
+
+@media (min-width: 800px) {
+  main {
+    width: 60%;
+  }
+}
+
+#profile-header {
+  margin: auto;
+}
+
+h1 {
+  color: #ddd;
+  font-size: 56px;
+  text-align: center;
+  margin: 10px auto;
+  font-family: 'Ruda', sans-serif;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  margin: auto;
+}
+
+#timeline {
+  color: #eee;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  width: 100vw;
+  max-width: 100%;
+  z-index: -1;
+  margin: auto;
+  height: inherit;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(160px, 1fr));
+}
+
+dt {
+  margin-right:10rem;
+  font-size: 32px;;
+  text-align: right;
+  margin-bottom: 80px;
+}
+
+dd {
+  margin-bottom: 16px;
+}
+
+footer {
+  font-size: 10px;
+  color: #bbb;
+  padding: 30px;
+  background-color: #000
+}
+
+p {
+  text-align: center;
+}
+
+main > p {
+  color: #bbb;
+  font-size: 10px;
+  padding: 6px;
+}
+
+a {
+  color: white;
+}
